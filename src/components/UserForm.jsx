@@ -16,7 +16,7 @@ const UserForm = ({ onSubmit, isEdit }) => {
   useEffect(() => {
     if (isEdit && id) {
       const fetchUser = async () => {
-        const response = await axios.get(`https://3.141.46.57/usuarios/${id}`);
+        const response = await axios.get(`http://3.141.46.57/usuarios/${id}`);
         setUserData({
           nombre: response.data.nombre,
           correo: response.data.correo,
