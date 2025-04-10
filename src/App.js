@@ -13,7 +13,7 @@ function App() {
   const [userName, setUserName] = useState('');
   const [users, setUsers] = useState([]);
 
-  const API_URL = 'http://3.141.46.57';
+  const API_URL = 'https://3.141.46.57';
 
   useEffect(() => {
     const token = localStorage.getItem('auth_token');
