@@ -1,0 +1,70 @@
+/* Contenedor general centrado */
+.user-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: #f9fafb;
+    padding: 1rem;
+  }
+  
+  /* Tarjeta que contiene el formulario */
+  .user-form-card {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Título */
+  .user-form-card h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Formulario */
+  .user-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-form label {
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #444;
+  }
+  
+  .user-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .user-form input:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  /* Botón */
+  .btn-submit {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-submit:hover {
+    background-color: #43a047;
+  }
+  
